@@ -1,0 +1,69 @@
+@import url("css/normalize.css");
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html{
+   font-size: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 16px;
+    line-height: 22px; 
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; 
+    padding: 1.8rem 0;
+}
+.header__contact {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.page__cell {
+    max-width: 1180px;
+    margin: 0 auto;
+
+}
+
+.phone-number,
+.email--adress {
+    text-decoration: none;
+   
+}
+
+.phone-number {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.5625rem;
+    text-align: right;
+}
+
+.email--adress {
+    color: #808080;
+    font-weight: 300;;
+    
+}
+
+
+
+
+
