@@ -82,6 +82,8 @@ body {
 	padding: 1.33rem;
 	display: block;
 }
+
+
 .slider__item {
 	padding-top: 33.7%;
 	background-position: center center;
@@ -89,6 +91,7 @@ body {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+
 
 .headline {
 	text-align: center;
